@@ -71,7 +71,7 @@ class UsersController extends Controller
         
         return view('users.favorites', [
             'user' => $user,
-            'microposts' => $favorites,
+            'users' => $favorites,
         ]);
         
         
